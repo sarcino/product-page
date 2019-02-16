@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&amp;subset=latin-ext" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <title>Minimal Product Page</title>
+</head>
+
+<body>
+    <section id="wrapper">
+        <header role="banner">
+            <section class="logo-menu">
+                <!-- HAMBURGER MENU -->
+                <section class="menu">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </section>
+
+                <div class="logo-section">
+                    <a href="index.html">
+                        <h1 class="logo" alt="logo Zara ČR">
+                            Zara
+                        </h1>
+                    </a>
+                </div>
+            </section>
+
+            <section class="search">
+                <div>Search</div>
+                <div class="line"></div>
+            </section>
+
+            <section>
+
+                <section class="menu-additional">
+                    <div><a href="#">Sign in</a></div>
+                    <div><a href="#">Contact</a></div>
+                    <div class="counter">
+                        <a href="#"><img class="shopping-bag" src="img/shopping-bag.svg" />
+                            <p class="number">0</p>
+                        </a>
+                    </div>
+                </section>
+            </section>
+
+        </header>
+
+        <main>
+            <div class="arrow-right arrow-visibility" data-key="39">
+                <img src="img/arrow-right.png" />
+            </div>
+
+            <div class="arrow-left arrow-visibility" data-key="37">
+                <img src="img/arrow-left.png" />
+            </div>
+
+
+            <!-- SIDEBAR -->
+            <aside>
+                <ul>
+                    <li><a href="#" class="category-sale">Sale</a></li>
+                    <li><a href="#" class="category">New Collection</a></li>
+                    <li><a href="#" class="category">Our Shops</a></li>
+                    <li class="srpls"><a href="#" class="category-srpls">OUR BRAND <img src="img/srpls.png"></a></li>
+                    <li><a href="#" class="">Woman</a></li>
+                    <li><a href="#" class="">Man</a></li>
+                    <li><a href="#" class="">+ Info</a></li>
+                </ul>
+            </aside>
+            <!-- /SIDEBAR -->
+            <!-- CHAT -->
+            <section class="chat">
+                <img src="img/chat.png" />
+                CHAT
+            </section>
+            <!-- /CHAT -->
+
+            <section class="product">
+
+                <section class="product-pictures">
+                    <img class="img-lightbox" src="img/sports-3994088.jpg" />
+                    <img class="img-lightbox" src="img/sports-3994077.jpg" />
+                    <img class="img-lightbox" src="img/sports-3994079.jpg" />
+                </section>
+
+                <section class="product-description">
+                    <h2>Jumpsuit Tank Top Bodysuit</h2>
+                    <p class="price">59 &#8364;</p>
+
+                    <p>Black - 8314/899</p>
+                    <p class="description">Super soft-touch and stretchy for comfort. Simple, but trendy item for any occasion.</p>
+                    <section>MODEL HEIGHT: 5’ 10” (177 cm)</section>
+
+                    <ul class="sizes-list">
+                        <li>XS</li>
+                        <li>S</li>
+                        <li>M</li>
+                        <li>L</li>
+                        <li>XL</li>
+                        <li>XXL</li>
+                    </ul>
+
+                    <section id="size-guide">Size Guide</section>
+                    <a href="#" class="cta">ADD</a>
+
+                    <section class="details">
+                        <ul class="arrows">
+                            <li id="care">Composition and Care</li>
+                            <li class="share">SHARE</li>
+                        </ul>
+                        <ul class="social-icons">
+                            <li>
+                                <a href="#"><img src="img/pinterest.png" /></a>
+                                <a href="#"><img src="img/facebook.png" /></a>
+                                <a class="twitter" href="#"><img src="img/twitter.png" /></a>
+                            </li>
+
+                        </ul>
+                    </section>
+
+                </section>
+
+            </section>
+            <h3>More productss</h3>
+            <section class="more-products">
+                <figure>
+                    <img src="img/fashion-1866574_1920.jpg" />
+                    <figcaption>
+                        <h4>Faux Leather Bag for Men</h4>
+                        <h5>48.99&nbsp;€</h5> <button class="add-item add-item-no-margin" type="button" aria-label="Přidat páskové sandály do košíku">ADD TO BAG</button>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="img/chair-3054767.jpg" />
+                    <figcaption>
+                        <h4>Leather Spring Boot Shoes</h4>
+                        <h5>109&nbsp;€</h5>
+
+                        <section class="dropdown">
+                            <button class="dropbtn" id="dropbtn">Choose your size</button>
+                            <div id="myDropdown" class="dropdown-content">
+                                <a href="#">36</a>
+                                <a href="#">37</a>
+                                <a href="#">38</a>
+                                <a href="#">39</a>
+                                <a href="#">40</a>
+                                <a href="#">41</a>
+                            </div>
+                        </section>
+                        <button class="add-item" type="button" aria-label="Přidat páskové sandály do košíku">ADD TO BAG</button>
+
+                    </figcaption>
+                </figure>
+
+            </section>
+
+            <section class="newsletter">
+                <h3>SIGN UP FOR OUR NEWSLETTER</h3>
+                <input name="email" type="text" id="input-newsletter" value="Enter your email here" maxlength="100" data-rule-required="true" autocomplete="off">
+            </section>
+
+            <section class="social">
+                <ul>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Pinterest</a></li>
+                    <li><a href="#">YouTube</a></li>
+                </ul>
+            </section>
+
+        </main>
+
+        <footer role="contentinfo">
+            <section class="footer-wrapper">
+                <section>
+                    <h3>HELP</h3>
+                    <ul>
+                        <li><a href="#">SHOP AT US</a></li>
+                        <li><a href="#">GIFT CARDS</a></li>
+                        <li><a href="#">SHIPPING</a></li>
+                        <li><a href="#">PAYMENT</a></li>
+                        <li><a href="#">EXCHANGES AND RETURNS</a></li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>FOLLOW US</h3>
+                    <ul>
+                        <li><a href="#">NEWSLETTER</a></li>
+                        <li><a href="#">INSTAGRAM</a></li>
+                        <li><a href="#">FACEBOOK</a></li>
+                        <li><a href="#">TWITTER</a></li>
+                        <li><a href="#">PINTEREST</a></li>
+                        <li><a href="#">YOUTUBE</a></li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>COMPANY</h3>
+                    <ul>
+                        <li><a href="#">ABOUT US</a></li>
+                        <li><a href="#">STORES</a></li>
+                        <li><a href="#">OFFICES</a></li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>POLICIES</h3>
+                    <ul>
+                        <li><a href="#">PRIVACY POLICY</a></li>
+                        <li><a href="#">TERMS OF USE</a></li>
+                    </ul>
+                </section>
+            </section>
+            <section class="copyright">
+                <div>CZECH REPUBLIC</div>
+                <div>
+                    CZECH | <a href="#">ENGLISH</a><br />
+                    <span>© All rights reserved</span></div>
+            </section>
+        </footer>
+
+    </section>
+
+    <!-- POP UP CARE -->
+    <section id="popup" class="hide" role="dialog">
+        <div id="close">&times;</div>
+        <p>
+            <strong>Compositon</strong><br /><br />
+
+            95% Cotton, 5% Spandex<br />
+        </p>
+        <strong>Care</strong><br />
+        <div class="tooltip">
+            <img src="img/ironing.png" />
+            <span class="tooltiptext">settings 2</span>
+        </div>
+        <div class="tooltip">
+            <img src="img/wash.png" />
+            <span class="tooltiptext">hand wash</span>
+        </div>
+    </section>
+
+
+
+
+
+
+</body>
+
+</html>
